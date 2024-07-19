@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* equip9AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* equip9AssignmentTests.m */; };
+		015B465AA0B7496F8EBD8C62 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992A41ECC8EA4E80A766DCCC /* Inter-Light.ttf */; };
+		0BB9F89A07A540A1979E90E5 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F0DB10BEB8F48969D475F7C /* Inter-ExtraLight.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-equip9Assignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-equip9Assignment.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1C363576A6844FDCB8097C82 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8356E3FAF50D410EB55A05A7 /* Inter-SemiBold.ttf */; };
+		2BB15D6E7F3C4C04BFFD4C0D /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B22520407DB14DE996A7D1C0 /* Inter-Medium.ttf */; };
+		5042E0AC86B04434B9510EF3 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 480D3C43E55E4811905EC1B6 /* Inter-Regular.ttf */; };
 		64B46BE2714FE36D973AE1F7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1AC87CAC5DC70DAA8437FB70 /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-equip9Assignment-equip9AssignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-equip9Assignment-equip9AssignmentTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		81D882037A914246B0771D92 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8330A8D973764CB39A8B40FB /* Inter-Bold.ttf */; };
+		A359A2F8ADE4440FAB9A7295 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22131438A239439CA549B5D5 /* Inter-ExtraBold.ttf */; };
+		A3AF44B78D4347ECBB12740F /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 965777363C0E4525BBAFDF0A /* Inter-Thin.ttf */; };
+		D32257642C49EEC000BEAF5C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D32257632C49EEC000BEAF5C /* FirebaseAnalytics */; };
+		D32257662C49EEC000BEAF5C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D32257652C49EEC000BEAF5C /* FirebaseAuth */; };
+		D32257682C49EEC000BEAF5C /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D32257672C49EEC000BEAF5C /* FirebaseAuthCombine-Community */; };
+		D322576D2C49F88300BEAF5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D322576C2C49F88300BEAF5C /* GoogleService-Info.plist */; };
+		D322576E2C49F88300BEAF5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D322576C2C49F88300BEAF5C /* GoogleService-Info.plist */; };
+		E587AFA500574EEF98CA92F7 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD2188B446DD48759179CED2 /* Inter-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +53,23 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = equip9Assignment/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = equip9Assignment/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-equip9Assignment-equip9AssignmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-equip9Assignment-equip9AssignmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AC87CAC5DC70DAA8437FB70 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = equip9Assignment/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1AC87CAC5DC70DAA8437FB70 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = equip9Assignment/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		22131438A239439CA549B5D5 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../src/assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-equip9Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-equip9Assignment.debug.xcconfig"; path = "Target Support Files/Pods-equip9Assignment/Pods-equip9Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		480D3C43E55E4811905EC1B6 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-equip9Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-equip9Assignment.release.xcconfig"; path = "Target Support Files/Pods-equip9Assignment/Pods-equip9Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-equip9Assignment-equip9AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-equip9Assignment-equip9AssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-equip9Assignment-equip9AssignmentTests/Pods-equip9Assignment-equip9AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-equip9Assignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-equip9Assignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0DB10BEB8F48969D475F7C /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../src/assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = equip9Assignment/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8330A8D973764CB39A8B40FB /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		8356E3FAF50D410EB55A05A7 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-equip9Assignment-equip9AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-equip9Assignment-equip9AssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-equip9Assignment-equip9AssignmentTests/Pods-equip9Assignment-equip9AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		965777363C0E4525BBAFDF0A /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../src/assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		992A41ECC8EA4E80A766DCCC /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../src/assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		B22520407DB14DE996A7D1C0 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		BD2188B446DD48759179CED2 /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../src/assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
+		D322576C2C49F88300BEAF5C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -62,7 +86,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32257642C49EEC000BEAF5C /* FirebaseAnalytics in Frameworks */,
+				D32257662C49EEC000BEAF5C /* FirebaseAuth in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-equip9Assignment.a in Frameworks */,
+				D32257682C49EEC000BEAF5C /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +116,7 @@
 		13B07FAE1A68108700A75B9A /* equip9Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				D322576C2C49F88300BEAF5C /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -111,6 +139,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		492EF1A15C6C47D5B9E00507 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD2188B446DD48759179CED2 /* Inter-Black.ttf */,
+				8330A8D973764CB39A8B40FB /* Inter-Bold.ttf */,
+				22131438A239439CA549B5D5 /* Inter-ExtraBold.ttf */,
+				7F0DB10BEB8F48969D475F7C /* Inter-ExtraLight.ttf */,
+				992A41ECC8EA4E80A766DCCC /* Inter-Light.ttf */,
+				B22520407DB14DE996A7D1C0 /* Inter-Medium.ttf */,
+				480D3C43E55E4811905EC1B6 /* Inter-Regular.ttf */,
+				8356E3FAF50D410EB55A05A7 /* Inter-SemiBold.ttf */,
+				965777363C0E4525BBAFDF0A /* Inter-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +171,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				492EF1A15C6C47D5B9E00507 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -194,6 +239,11 @@
 			dependencies = (
 			);
 			name = equip9Assignment;
+			packageProductDependencies = (
+				D32257632C49EEC000BEAF5C /* FirebaseAnalytics */,
+				D32257652C49EEC000BEAF5C /* FirebaseAuth */,
+				D32257672C49EEC000BEAF5C /* FirebaseAuthCombine-Community */,
+			);
 			productName = equip9Assignment;
 			productReference = 13B07F961A680F5B00A75B9A /* equip9Assignment.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +274,9 @@
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
+			packageReferences = (
+				D32257622C49EEC000BEAF5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D322576E2C49F88300BEAF5C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,9 +300,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D322576D2C49F88300BEAF5C /* GoogleService-Info.plist in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				64B46BE2714FE36D973AE1F7 /* PrivacyInfo.xcprivacy in Resources */,
+				E587AFA500574EEF98CA92F7 /* Inter-Black.ttf in Resources */,
+				81D882037A914246B0771D92 /* Inter-Bold.ttf in Resources */,
+				A359A2F8ADE4440FAB9A7295 /* Inter-ExtraBold.ttf in Resources */,
+				0BB9F89A07A540A1979E90E5 /* Inter-ExtraLight.ttf in Resources */,
+				015B465AA0B7496F8EBD8C62 /* Inter-Light.ttf in Resources */,
+				2BB15D6E7F3C4C04BFFD4C0D /* Inter-Medium.ttf in Resources */,
+				5042E0AC86B04434B9510EF3 /* Inter-Regular.ttf in Resources */,
+				1C363576A6844FDCB8097C82 /* Inter-SemiBold.ttf in Resources */,
+				A3AF44B78D4347ECBB12740F /* Inter-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,10 +654,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -665,10 +726,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -707,6 +765,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D32257622C49EEC000BEAF5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D32257632C49EEC000BEAF5C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D32257622C49EEC000BEAF5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D32257652C49EEC000BEAF5C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D32257622C49EEC000BEAF5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D32257672C49EEC000BEAF5C /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D32257622C49EEC000BEAF5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
 }
